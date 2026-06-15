@@ -1,4 +1,4 @@
-baseURL = 'https://saurabhkale.github.io/'
+baseURL = 'https://theeskay.github.io/'
 languageCode = 'en-us'
 title = 'My Technical Writing Portfolio'
 theme = 'hugo-noir'
