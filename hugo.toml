@@ -1,29 +1,62 @@
 baseURL = 'https://theeskay.github.io/'
 languageCode = 'en-us'
 title = 'Saurabh Kale'
-theme = 'hugo-noir'
+theme = 'hugo-papermod'
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2  # Adjust weights to order your menu items (e.g., Home=1, Projects=2, Resume=3, About=4)
+
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
 
 [params]
-  name = "Saurabh Kale"
-  description = "Technical Writer specializing in developer content, API documentation, and information architecture."
-  profile_image = "images/profile.jpg"
-  
-  # Social Media Links (Hugo Noir displays these as slick icons)
-  github = "https://github.com/TheEskay"
-  linkedin = "https://linkedin.com/in/your-profile"
-  email = "your.email@example.com"
+  title = "Saurabh Kale"
+  description = "Senior Technical Writer Portfolio"
+  defaultTheme = "auto"
 
-[[menu.main]]
-  name = "ABOUT"
-  url = "/"
-  weight = 1
+  [params.profileMode]
+    enabled = true
+    title = "Saurabh Kale"
+    subtitle = "Senior Technical Writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies."
+    
+    # 🖼️ PATH TO YOUR IMAGE (Added here)
+    imageUrl = "/images/profile.jpg" 
+    imageWidth = 150  # Optional: sets the width of your avatar
+    imageHeight = 150 # Optional: sets the height of your avatar
+    
+    # Dual Call-to-Action Buttons
+    [[params.profileMode.buttons]]
+      name = "📄 View Resume"
+      url = "/resume/"
+    [[params.profileMode.buttons]]
+      name = "👤 About Me"
+      url = "/about/"
 
-[[menu.main]]
-  name = "EXPERIENCE"
-  url = "/experience/"
-  weight = 2
+  # Native Professional Social Icons
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/saurabhkale1998/"
 
-[[menu.main]]
-  name = "PROJECTS"
-  url = "/posts/"
-  weight = 3
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/theeskay"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:saurabhcitygo@gmail.com"

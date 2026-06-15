@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ens on Saurabh Kale</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Ens on Saurabh Kale</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/en/experience/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/</guid>
+      <description>&lt;p&gt;[[experience]]
+role = &amp;ldquo;Senior Developer&amp;rdquo;
+company = &amp;ldquo;Tech Solutions Inc.&amp;rdquo;
+company_link = &amp;ldquo;&lt;a href=&#34;https://www.techsolutions.com&#34;&gt;https://www.techsolutions.com&lt;/a&gt;&amp;rdquo; # Add company URL here
+period = &amp;ldquo;Jan 2020 - Present&amp;rdquo;
+country = &amp;ldquo;USA&amp;rdquo; # New field for region/country&lt;/p&gt;
+&lt;h1 id=&#34;description--longer-description-of-the-role--optional-detailed-description&#34;&gt;description = &amp;ldquo;Longer description of the role&amp;hellip;&amp;rdquo; # Optional detailed description&lt;/h1&gt;
+&lt;p&gt;responsibilities = [
+&amp;ldquo;Developed and maintained web applications.&amp;rdquo;,
+&amp;ldquo;Collaborated with cross-functional teams.&amp;rdquo;,
+&amp;ldquo;Led junior developers.&amp;rdquo;
+]
+technologies = [&amp;ldquo;Go&amp;rdquo;, &amp;ldquo;Docker&amp;rdquo;, &amp;ldquo;Kubernetes&amp;rdquo;, &amp;ldquo;React&amp;rdquo;]&lt;/p&gt;
+&lt;p&gt;[[experience]]
+role = &amp;ldquo;Software Engineer&amp;rdquo;
+company = &amp;ldquo;Innovate LLC&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

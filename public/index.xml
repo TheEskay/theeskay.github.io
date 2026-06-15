@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Saurabh Kale</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on Saurabh Kale</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>About Me</title>
-				<link>http://localhost:1313/posts/about-me/</link>
-				<pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/about-me/</guid>
-				<description>&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;Saurabh Kale&lt;/strong&gt;! I am an experienced Technical Writer passionate about making complex technology simple, accessible, and easy to understand.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-i-do&#34;&gt;What I Do&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;User Guides &amp;amp; Tutorials:&lt;/strong&gt; Breaking down complicated workflows into step-by-step instructions.&lt;/li&gt;&#xA;&lt;li&gt;⚙️ &lt;strong&gt;Developer Docs:&lt;/strong&gt; Writing documentation for APIs, CLIs, and configuration files.&lt;/li&gt;&#xA;&lt;li&gt;🛠️ &lt;strong&gt;Docs-as-Code:&lt;/strong&gt; Managing documentation using Git, Markdown, and Static Site Generators (like this Hugo site!).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;connect-with-me&#34;&gt;Connect With Me&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; [https://www.linkedin.com/in/saurabhkale1998/]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; [saurabhcitygo@gmail.com]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-			</item>
-	</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Saurabh Kale</title>
+    <link>http://localhost:63490/</link>
+    <description>Recent content on Saurabh Kale</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:63490/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise Docs-as-Code Automation Pipeline</title>
+      <link>http://localhost:63490/projects/docs-as-code-pipeline/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63490/projects/docs-as-code-pipeline/</guid>
+      <description>Architecting an automated AsciiDoc publishing workflow to seamlessly build, validate, and scale enterprise user manuals.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:63490/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63490/about/</guid>
+      <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome!&lt;/h2&gt;
+&lt;p&gt;My name is Saurabh Kale, a Senior Technical Writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.&lt;/p&gt;
+&lt;h2 id=&#34;my-toolkit&#34;&gt;My Toolkit&lt;/h2&gt;
+&lt;p&gt;My current professional toolkit includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Docs-as-Code:&lt;/strong&gt; Hugo, Markdown, Asciidoc, Sphinx, reStructured Text&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Development:&lt;/strong&gt; Git, GitHub, VS Code&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI &amp;amp; Automation:&lt;/strong&gt; Claude Code, LLM-Assisted Content Strategy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design &amp;amp; Collaboration:&lt;/strong&gt; MS Visio, Camtasia, Snagit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-tools-ive-used&#34;&gt;Other Tools I’ve Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Documentation Platforms:&lt;/strong&gt; MadCap Flare, Confluence, Swagger, Postman&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Management:&lt;/strong&gt; Jira, Azure DevOps, SharePoint&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Communication:&lt;/strong&gt; Slack, WebEx, Zoom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;this-site-uses&#34;&gt;This site uses:&lt;/h2&gt;
+&lt;p&gt;Git, GitHub, Markdown, Hugo, and the PaperMod theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:63490/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:63490/resume/</guid>
+      <description>&lt;h1 id=&#34;elevator-pitch&#34;&gt;Elevator Pitch&lt;/h1&gt;
+&lt;p&gt;Senior technical writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.&lt;/p&gt;
+&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Pune, Maharashtra, India (or Remote)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class of Work:&lt;/strong&gt; Full-time, Freelance, Contract&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type of Work:&lt;/strong&gt; Developer Experience (DX) Documentation, API/SDK Reference Design, Information Architecture, Content Strategy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desired Title:&lt;/strong&gt; Senior Technical Writer, Documentation Architect, Content Strategist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;Senior Technical Writer &amp;amp; Documentation Architect with 6+ years of experience transforming technical complexity into intuitive, actionable user journeys. Specialized in scaling documentation for high-growth environments, bridging the gap between engineering teams and end-users. Expert in docs-as-code automation, MSTP governance, and designing “Golden Path” onboarding experiences that reduce time-to-value for developers and enterprise stakeholders.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
