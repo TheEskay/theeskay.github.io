@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/projects/sko-maritime-suite/</guid>
       <description>Architecting end-to-end technical documentation, functional requirement specs, and user journeys for SKO Systems&amp;rsquo; flagship maritime and cruise operations platform.</description>
     </item>
+    <item>
+      <title>Enterprise Technical Content Strategy &amp; Whitepapers</title>
+      <link>http://localhost:1313/projects/qualizeal-whitepapers/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/qualizeal-whitepapers/</guid>
+      <description>Architecting authoritative technical whitepapers on DevOps strategy, AI automation, Shift-Left security, and ETL testing pipelines to drive industry thought leadership.</description>
+    </item>
   </channel>
 </rss>

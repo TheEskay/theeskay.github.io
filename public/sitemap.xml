@@ -11,11 +11,18 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/qualizeal-whitepapers/</loc>
+    <lastmod>2023-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/hugo-portfolio/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blogs/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>http://localhost:1313/experience/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

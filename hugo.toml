@@ -16,14 +16,20 @@ enableEmoji = true
     weight = 2  # Adjust weights to order your menu items (e.g., Home=1, Projects=2, Resume=3, About=4)
 
   [[menu.main]]
-    name = "Resume"
-    url = "/resume/"
+    name = "Experience"
+    url = "/experience/"
     weight = 2
 
   [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 3
+
+  [[menu.main]]
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 3
+
 
 [params]
   title = "Saurabh Kale"
@@ -42,11 +48,17 @@ enableEmoji = true
     
     # Dual Call-to-Action Buttons
     [[params.profileMode.buttons]]
-      name = "📄 View Resume"
+      name = "📄 View Experience"
       url = "/resume/"
     [[params.profileMode.buttons]]
       name = "👤 About Me"
       url = "/about/"
+    [[params.profileMode.buttons]]
+      name = "🚀 Projects"
+      url = "/projects/"
+    [[params.profileMode.buttons]]
+      name = "✍️ Blogs"
+      url = "/blog/"
 
   # Native Professional Social Icons
   [[params.socialIcons]]
