@@ -3,7 +3,7 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - main # Change this to "master" if your GitHub Desktop default branch is master
+      - main # Change this to "master" if your GitHub Desktop branch is master
 
 permissions:
   contents: read
@@ -25,14 +25,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive # Tells GitHub to download your Hugo Noir theme
+          submodules: recursive
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Setup Hugo
         uses: actions/setup-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true # Hugo Noir/PaperMod require the extended version
+          extended: true
       - name: Build with Hugo
         run: hugo --minify
       - name: Upload artifact
