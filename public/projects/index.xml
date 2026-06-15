@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects &amp; Case Studies on Saurabh Kale</title>
-    <link>http://localhost:63490/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects &amp; Case Studies on Saurabh Kale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63490/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Enterprise Docs-as-Code Automation Pipeline</title>
-      <link>http://localhost:63490/projects/docs-as-code-pipeline/</link>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63490/projects/docs-as-code-pipeline/</guid>
-      <description>Architecting an automated AsciiDoc publishing workflow to seamlessly build, validate, and scale enterprise user manuals.</description>
+      <title>Maritime Enterprise Product Documentation Suite</title>
+      <link>http://localhost:1313/projects/sko-maritime-suite/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sko-maritime-suite/</guid>
+      <description>Architecting end-to-end technical documentation, functional requirement specs, and user journeys for SKO Systems&amp;rsquo; flagship maritime and cruise operations platform.</description>
     </item>
   </channel>
 </rss>
