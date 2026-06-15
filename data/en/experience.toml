@@ -1,0 +1,13 @@
+[[experience]]
+  role = "Technical Writer (Portfolio Project)"
+  company = "Self-Employed"
+  location = "Remote"
+  duration = "2026 - Present"
+  description = "Designed and engineered an automated Docs-as-Code publishing pipeline using Hugo, Tailwind CSS, and GitHub Actions. Structured user guides and developer samples for public visibility."
+
+[[experience]]
+  role = "Your Previous Role or Education"
+  company = "Company Name / University"
+  location = "City, India"
+  duration = "Timeline"
+  description = "A short bullet point detailing what you accomplished or learned during this time."
