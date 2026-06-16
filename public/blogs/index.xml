@@ -6,13 +6,21 @@
     <description>Recent content in Blogs on Saurabh Kale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/blogs/hugo-portfolio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/hugo-portfolio/</guid>
-      <description></description>
+      <title>The Enterprise Blueprint: Migrating Legacy Word Documentation to Docs-as-Code</title>
+      <link>http://localhost:1313/blogs/doc-migration/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/doc-migration/</guid>
+      <description>A technical guide on auditing, programmatically converting, and restructuring legacy Microsoft Word archives into automated Markdown pipelines.</description>
+    </item>
+    <item>
+      <title>Building a GitHub Portfolio: A Step-by-Step Guide for Technical Writers</title>
+      <link>http://localhost:1313/blogs/building-docs-as-code-portfolio/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/building-docs-as-code-portfolio/</guid>
+      <description>Why traditional PDFs don&amp;rsquo;t cut it anymore, and how to engineer a high-performance portfolio using Hugo, PaperMod, and Markdown.</description>
     </item>
   </channel>
 </rss>

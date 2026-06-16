@@ -1,0 +1,141 @@
+openapi: 3.0.3
+info:
+  title: sMuster Enterprise Safety API
+  version: 1.4.0
+  description: >
+    The sMuster API enables maritime port authorities, vessel safety officers, 
+    and automated dispatch systems to programmatically monitor, initialize, 
+    and audit emergency muster drill assemblies across connected vessels.
+  contact:
+    name: SKO Systems Developer Relations
+    url: https://www.skosystems.com/support
+paths:
+  /vessels/{vessel_id}/muster:
+    post:
+      summary: Initialize Emergency Muster Drill
+      description: >
+        Triggers an immediate emergency assembly notification sequence across 
+        the specified vessel's digital signage, mobile crew applications, and 
+        public address integration layers. This action initializes a unique 
+        drill tracking session.
+      operationId: triggerMusterDrill
+      parameters:
+        - name: vessel_id
+          in: path
+          description: The unique alphanumeric identification code of the vessel (e.g., SKO-OASIS-04).
+          required: true
+          schema:
+            type: string
+            example: SKO-OASIS-04
+      requestBody:
+        description: Configuration parameters for the emergency drill lifecycle execution.
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MusterRequest'
+      responses:
+        '201':
+          description: Muster drill successfully initialized and broadcast.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MusterResponse'
+        '400':
+          description: Invalid request payload parameters or unvalidated schema parameters.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Missing or invalid authentication bearer token payload.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Target vessel ID could not be resolved inside the fleet registry network.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - BearerAuth: []
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      description: Enter your enterprise application bearer token to authenticate requests.
+  
+  schemas:
+    MusterRequest:
+      type: object
+      required:
+        - drill_type
+        - assembly_stations
+      properties:
+        drill_type:
+          type: string
+          description: The structural category of the safety protocol deployment.
+          enum:
+            - fire
+            - abandon_ship
+            - medical_emergency
+            - test_routine
+          example: abandon_ship
+        assembly_stations:
+          type: array
+          description: Identification strings of specific physical stations activated for this drill cascade.
+          items:
+            type: string
+          example: ["A1", "A2", "B5"]
+        force_override:
+          type: boolean
+          description: If set to true, bypasses auxiliary human validation checkpoints and forces instant system alarm states.
+          default: false
+          example: false
+
+    MusterResponse:
+      type: object
+      properties:
+        drill_id:
+          type: string
+          format: uuid
+          description: The uniquely generated tracking identifier for this specific event instance.
+          example: d9b0384a-67b4-4b36-9b55-d4fc3472cbcf
+        vessel_id:
+          type: string
+          description: The validated identification code of the target ship asset.
+          example: SKO-OASIS-04
+        status:
+          type: string
+          description: The systemic deployment status of the drill tracking lifecycle.
+          example: active
+        triggered_at:
+          type: string
+          format: date-time
+          description: The synchronized server timestamp indicating when the payload processed successfully.
+          example: "2026-06-16T19:45:00Z"
+        active_stations:
+          type: array
+          items:
+            type: string
+          example: ["A1", "A2", "B5"]
+
+    ErrorResponse:
+      type: object
+      properties:
+        error_code:
+          type: string
+          description: A specific alphanumeric application-level error tracker classification.
+          example: ERR_AUTH_MISSING
+        message:
+          type: string
+          description: A detailed plain-text explanation of the validation or network processing failure.
+          example: Request header lacks a valid Authorization Bearer token entry.
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-06-16T19:45:32Z"

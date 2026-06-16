@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Api-Docs on Saurabh Kale</title>
+    <link>http://localhost:1313/api-docs/</link>
+    <description>Recent content in Api-Docs on Saurabh Kale</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/api-docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sMuster Enterprise API Reference Manual</title>
+      <link>http://localhost:1313/api-docs/api-doc-sample1/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/api-docs/api-doc-sample1/</guid>
+      <description>&lt;p&gt;This page provides the technical specifications for the sMuster API suite.&lt;/p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/swagger-ui-dist@5/swagger-ui.css&#34; /&gt;
+&lt;script src=&#34;https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  window.onload = () =&gt; {
+    window.ui = SwaggerUIBundle({
+      url: &#39;http:\/\/localhost:1313\/specs\/smuster-api.yaml&#39;,
+      dom_id: &#39;#swagger-ui&#39;,
+      deepLinking: true,
+      presets: [
+        SwaggerUIBundle.presets.apis,
+        SwaggerUIBundle.SwaggerUIStandalonePreset
+      ],
+    });
+  };
+&lt;/script&gt;</description>
+    </item>
+  </channel>
+</rss>

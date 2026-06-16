@@ -13,22 +13,27 @@ enableEmoji = true
   [[menu.main]]
     name = "Projects"
     url = "/projects/"
-    weight = 2  # Adjust weights to order your menu items (e.g., Home=1, Projects=2, Resume=3, About=4)
+    weight = 2
+
+  [[menu.main]]
+    name = "API Docs"
+    url = "/api-docs/"
+    weight = 3
 
   [[menu.main]]
     name = "Experience"
     url = "/experience/"
-    weight = 2
+    weight = 4
 
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 5
 
   [[menu.main]]
     name = "Blogs"
     url = "/blogs/"
-    weight = 3
+    weight = 6
 
 
 [params]

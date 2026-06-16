@@ -6,8 +6,15 @@
     <description>Recent content in Projects &amp; Case Studies on Saurabh Kale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product Release Notes &amp; Version History Engineering</title>
+      <link>http://localhost:1313/projects/a11yinspect-release-notes/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/a11yinspect-release-notes/</guid>
+      <description>Designing user-centric release notes, changelogs, and version history frameworks for A11yInspect—BarrierBreak&amp;rsquo;s enterprise digital accessibility testing platform.</description>
+    </item>
     <item>
       <title>Maritime Enterprise Product Documentation Suite</title>
       <link>http://localhost:1313/projects/sko-maritime-suite/</link>
