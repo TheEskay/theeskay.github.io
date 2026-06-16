@@ -1,7 +1,7 @@
 baseURL = 'https://theeskay.github.io/'
 languageCode = 'en-us'
 title = 'Saurabh Kale'
-theme = 'hugo-papermod'
+theme = 'papermod'
 enableEmoji = true
 
 [menu]

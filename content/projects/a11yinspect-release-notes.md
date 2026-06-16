@@ -3,7 +3,7 @@ title: "Product Release Notes & Version History Engineering"
 date: 2025-11-13
 summary: "Designing user-centric release notes, changelogs, and version history frameworks for A11yInspect—BarrierBreak's enterprise digital accessibility testing platform."
 
-# 🖼️ HERO IMAGE SETTINGS
+# HERO IMAGE SETTINGS
 cover:
     image: "images/a11yinspect-v134.png"
     alt: "A11yInspect Product Documentation Portal"
@@ -12,12 +12,12 @@ cover:
     hidden: false
     hiddenInSingle: false
 
-# 📑 TOC SETTINGS
+# TOC SETTINGS
 showToc: true
 TocOpen: true
 ---
 
-## 📌 Project Overview
+## Project Overview
 During my tenure at **BarrierBreak**, I took engineering ownership of the public product changelogs, version history structures, and release note pipelines for **A11yInspect**—an advanced software auditing application designed to scan web properties for international digital accessibility compliance.
 
 * **Role:** Senior Technical Writer / Product Communicator
@@ -26,12 +26,12 @@ During my tenure at **BarrierBreak**, I took engineering ownership of the public
 
 ---
 
-## 🛠️ The Challenge
+## The Challenge
 When product engineers deploy software patches, the internal changelogs consist of dense git commit histories, closed Jira bugs, and technical pull-request logs. For an accessibility tool like A11yInspect, users need to understand exactly how a bug fix or algorithm adjustment impacts their day-to-day accessibility auditing scores, rule engines, and false-positive criteria without wading through developer jargon.
 
 ---
 
-## 💡 The Strategy & Execution
+## The Strategy & Execution
 
 ### 1. The Dev-to-User Translation Framework
 I established a systematic review pipeline to translate engineering changes into high-value public communication assets:
@@ -47,7 +47,7 @@ Every release layout followed a strict hierarchy built for cross-functional read
 
 ---
 
-## 🌐 Case Study Focus: [A11yInspect v1.3.4 Release Notes](https://support.barrierbreak.com/a11yinspect/version-history/release-notes-v1.3.4/)
+## Case Study Focus: [A11yInspect v1.3.4 Release Notes](https://support.barrierbreak.com/a11yinspect/version-history/release-notes-v1.3.4/)
 
 This specific release focused heavily on refining automated rulesets, improving validation workflows, and updating core inspection algorithms to eliminate false flags during deep-page contrast or structural audits.
 
@@ -58,7 +58,7 @@ This specific release focused heavily on refining automated rulesets, improving 
 
 ---
 
-## 📈 The Business Impact
+## The Business Impact
 * **Reduced Support Overheads:** Transforming abstract development logs into transparent, descriptive release summaries resulted in a quantifiable drop in incoming support queries following software updates.
 * **Accelerated Compliance Adjustments:** Enterprise clients could safely match the new application behaviors with their internal automated testing parameters without disrupting daily testing flows.
 * **Transparent Lifecycle Value:** Maintaining a precise public version history established immense market credibility, showing buyers a continuous and agile cadence of software refinement and compliance mastery.
