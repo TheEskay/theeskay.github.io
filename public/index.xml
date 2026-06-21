@@ -6,8 +6,15 @@
     <description>Recent content on Saurabh Kale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Technical Writer&#39;s Guide to Designing and Mocking APIs for Portfolios</title>
+      <link>http://localhost:1313/blogs/create-mock-api/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/create-mock-api/</guid>
+      <description>Learn how to design professional mock APIs, create live testable endpoints for free, and build portfolio-ready API documentation that showcases real technical writing skills.</description>
+    </item>
     <item>
       <title>The Enterprise Blueprint: Migrating Legacy Word Documentation to Docs-as-Code</title>
       <link>http://localhost:1313/blogs/doc-migration/</link>
@@ -75,12 +82,11 @@
 &lt;p&gt;Git, GitHub, Markdown, Hugo, and the PaperMod theme.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/experience/</link>
+      <title>Experience</title>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
-      <description>&lt;h1 id=&#34;elevator-pitch&#34;&gt;Elevator Pitch&lt;/h1&gt;
-&lt;p&gt;Senior technical writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.&lt;/p&gt;
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;p&gt;Senior technical writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.&lt;/p&gt;
 &lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Pune, Maharashtra, India (or Remote)&lt;/li&gt;
@@ -89,7 +95,7 @@
 &lt;li&gt;&lt;strong&gt;Desired Title:&lt;/strong&gt; Senior Technical Writer, Documentation Architect, Content Strategist&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
-&lt;p&gt;Senior Technical Writer &amp;amp; Documentation Architect with 6+ years of experience transforming technical complexity into intuitive, actionable user journeys. Specialized in scaling documentation for high-growth environments, bridging the gap between engineering teams and end-users. Expert in docs-as-code automation, MSTP governance, and designing “Golden Path” onboarding experiences that reduce time-to-value for developers and enterprise stakeholders.&lt;/p&gt;</description>
+&lt;p&gt;Senior technical writer with 7 years of experience transforming complex concepts into clear, actionable documentation. Proven expertise in managing the complete documentation lifecycle, including requirement gathering, SME collaboration, drafting, review cycles, and publication. Agile at collaborating with cross-functional teams, including Product, Engineering, and QA. Passionate about leveraging AI tools and automation to accelerate documentation workflows and enhance user experiences.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

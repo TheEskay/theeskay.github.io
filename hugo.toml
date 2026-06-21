@@ -21,8 +21,8 @@ enableEmoji = true
     weight = 3
 
   [[menu.main]]
-    name = "Experience"
-    url = "/experience/"
+    name = "Resume"
+    url = "/resume/"
     weight = 4
 
   [[menu.main]]
@@ -53,7 +53,7 @@ enableEmoji = true
     
     # Dual Call-to-Action Buttons
     [[params.profileMode.buttons]]
-      name = "📄 View Experience"
+      name = "📄 View Resume"
       url = "/resume/"
     [[params.profileMode.buttons]]
       name = "👤 About Me"

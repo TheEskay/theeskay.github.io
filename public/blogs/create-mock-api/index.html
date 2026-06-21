@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>The Technical Writer&#39;s Guide to Designing and Mocking APIs for Portfolios | Saurabh Kale</title>
+<meta name="keywords" content="">
+<meta name="description" content="Learn how to design professional mock APIs, create live testable endpoints for free, and build portfolio-ready API documentation that showcases real technical writing skills.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blogs/create-mock-api/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/create-mock-api/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Saurabh Kale (Alt + H)">Saurabh Kale</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/api-docs/" title="API Docs">
+                    <span>API Docs</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blogs/" title="Blogs">
+                    <span>Blogs</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      The Technical Writer&#39;s Guide to Designing and Mocking APIs for Portfolios
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-02-10 00:00:00 +0000 UTC'>February 10, 2026</span>
+
+</div>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#1-selecting-a-marketable-api-concept" aria-label="1. Selecting a Marketable API Concept">1. Selecting a Marketable API Concept</a><ul>
+                    
+            <li>
+                <a href="#concept-a-the-maritime-telemetry--asset-tracking-api--recommended" aria-label="Concept A: The Maritime Telemetry &amp; Asset Tracking API ⭐ (Recommended)">Concept A: The Maritime Telemetry &amp; Asset Tracking API ⭐ (Recommended)</a><ul>
+                    
+            <li>
+                <a href="#the-scenario" aria-label="The Scenario">The Scenario</a></li>
+            <li>
+                <a href="#endpoint" aria-label="Endpoint">Endpoint</a></li>
+            <li>
+                <a href="#why-it-works" aria-label="Why it works">Why it works</a></li></ul>
+            </li>
+            <li>
+                <a href="#concept-b-the-smart-locker-delivery-dispatch-api" aria-label="Concept B: The Smart-Locker Delivery Dispatch API">Concept B: The Smart-Locker Delivery Dispatch API</a><ul>
+                    
+            <li>
+                <a href="#the-scenario-1" aria-label="The Scenario">The Scenario</a></li>
+            <li>
+                <a href="#endpoint-1" aria-label="Endpoint">Endpoint</a></li>
+            <li>
+                <a href="#why-it-works-1" aria-label="Why it works">Why it works</a></li></ul>
+            </li>
+            <li>
+                <a href="#concept-c-the-subscription-billing--invoice-webhook-engine" aria-label="Concept C: The Subscription Billing &amp; Invoice Webhook Engine">Concept C: The Subscription Billing &amp; Invoice Webhook Engine</a><ul>
+                    
+            <li>
+                <a href="#the-scenario-2" aria-label="The Scenario">The Scenario</a></li>
+            <li>
+                <a href="#endpoint-2" aria-label="Endpoint">Endpoint</a></li>
+            <li>
+                <a href="#why-it-works-2" aria-label="Why it works">Why it works</a></li></ul>
+            </li></ul>
+            </li>
+            <li>
+                <a href="#2-how-to-create-a-live-testable-mock-api-for-free" aria-label="2. How to Create a Live, Testable Mock API (For Free)">2. How to Create a Live, Testable Mock API (For Free)</a><ul>
+                    
+            <li>
+                <a href="#method-1-beeceptor-the-absolute-fastest-route" aria-label="Method 1: Beeceptor (The Absolute Fastest Route)">Method 1: Beeceptor (The Absolute Fastest Route)</a><ul>
+                    
+            <li>
+                <a href="#step-1" aria-label="Step 1">Step 1</a></li>
+            <li>
+                <a href="#step-2" aria-label="Step 2">Step 2</a></li>
+            <li>
+                <a href="#step-3" aria-label="Step 3">Step 3</a></li>
+            <li>
+                <a href="#step-4" aria-label="Step 4">Step 4</a></li>
+            <li>
+                <a href="#response-body" aria-label="Response Body">Response Body</a></li>
+            <li>
+                <a href="#step-5" aria-label="Step 5">Step 5</a></li></ul>
+            </li>
+            <li>
+                <a href="#method-2-mockoon-for-complex-local-api-engineering" aria-label="Method 2: Mockoon (For Complex Local API Engineering)">Method 2: Mockoon (For Complex Local API Engineering)</a><ul>
+                    
+            <li>
+                <a href="#step-1-1" aria-label="Step 1">Step 1</a></li>
+            <li>
+                <a href="#step-2-1" aria-label="Step 2">Step 2</a></li>
+            <li>
+                <a href="#step-3-1" aria-label="Step 3">Step 3</a></li>
+            <li>
+                <a href="#step-4-1" aria-label="Step 4">Step 4</a></li>
+            <li>
+                <a href="#step-5-1" aria-label="Step 5">Step 5</a></li></ul>
+            </li></ul>
+            </li>
+            <li>
+                <a href="#3-blueprinting-your-first-custom-api-document" aria-label="3. Blueprinting Your First Custom API Document">3. Blueprinting Your First Custom API Document</a><ul>
+                    
+            <li>
+                <a href="#1-title--high-level-summary" aria-label="1. Title &amp; High-Level Summary">1. Title &amp; High-Level Summary</a></li>
+            <li>
+                <a href="#2-http-method--uri-path-mapping" aria-label="2. HTTP Method &amp; URI Path Mapping">2. HTTP Method &amp; URI Path Mapping</a></li>
+            <li>
+                <a href="#3-authentication-parameters" aria-label="3. Authentication Parameters">3. Authentication Parameters</a></li>
+            <li>
+                <a href="#4-input-specifications" aria-label="4. Input Specifications">4. Input Specifications</a><ul>
+                    
+            <li>
+                <a href="#path-parameters" aria-label="Path Parameters">Path Parameters</a></li>
+            <li>
+                <a href="#query-parameters" aria-label="Query Parameters">Query Parameters</a></li>
+            <li>
+                <a href="#request-body-schema" aria-label="Request Body Schema">Request Body Schema</a></li></ul>
+            </li>
+            <li>
+                <a href="#5-response-payload-schema--code-samples" aria-label="5. Response Payload Schema &amp; Code Samples">5. Response Payload Schema &amp; Code Samples</a><ul>
+                    
+            <li>
+                <a href="#success-responses" aria-label="Success Responses">Success Responses</a></li>
+            <li>
+                <a href="#error-responses" aria-label="Error Responses">Error Responses</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e2%84%b9-portfolio-tip" aria-label="ℹ️ Portfolio Tip">ℹ️ Portfolio Tip</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>As a technical writer, documenting an API you designed yourself is a massive career cheat code. It demonstrates to hiring managers that you possess system architecture literacy and can participate actively in developer-experience (DX) and API-design discussions.</p>
+<p>This guide covers:</p>
+<ul>
+<li>Highly marketable API concepts you can design yourself.</li>
+<li>How to spin up a live, testable mock API endpoint for free in minutes.</li>
+<li>How to structure your API design for maximum recruiter impact.</li>
+</ul>
+<hr>
+<h1 id="1-selecting-a-marketable-api-concept">1. Selecting a Marketable API Concept<a hidden class="anchor" aria-hidden="true" href="#1-selecting-a-marketable-api-concept">#</a></h1>
+<p>Choose a domain that aligns with modern, high-paying tech sectors (SaaS, FinTech, IoT, or Logistics). Avoid overly basic examples like <strong>To-Do List APIs</strong> or <strong>Bookstore APIs</strong>, as they signal junior-level experience.</p>
+<h2 id="concept-a-the-maritime-telemetry--asset-tracking-api--recommended">Concept A: The Maritime Telemetry &amp; Asset Tracking API ⭐ (Recommended)<a hidden class="anchor" aria-hidden="true" href="#concept-a-the-maritime-telemetry--asset-tracking-api--recommended">#</a></h2>
+<h3 id="the-scenario">The Scenario<a hidden class="anchor" aria-hidden="true" href="#the-scenario">#</a></h3>
+<p>Since you already have projects relating to maritime logistics, you can expand this into an asset tracking API.</p>
+<h3 id="endpoint">Endpoint<a hidden class="anchor" aria-hidden="true" href="#endpoint">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">GET /v1/fleet/{vessel_id}/telemetry
+</span></span></span></code></pre></div><h3 id="why-it-works">Why it works<a hidden class="anchor" aria-hidden="true" href="#why-it-works">#</a></h3>
+<p>It shows you can document complex, real-world IoT sensor data streams such as:</p>
+<ul>
+<li>GPS coordinates</li>
+<li>Speed</li>
+<li>Fuel consumption</li>
+<li>Engine temperature</li>
+</ul>
+<hr>
+<h2 id="concept-b-the-smart-locker-delivery-dispatch-api">Concept B: The Smart-Locker Delivery Dispatch API<a hidden class="anchor" aria-hidden="true" href="#concept-b-the-smart-locker-delivery-dispatch-api">#</a></h2>
+<h3 id="the-scenario-1">The Scenario<a hidden class="anchor" aria-hidden="true" href="#the-scenario-1">#</a></h3>
+<p>A retail logistics API used by delivery drivers to drop off packages in automated suburban smart-lockers.</p>
+<h3 id="endpoint-1">Endpoint<a hidden class="anchor" aria-hidden="true" href="#endpoint-1">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">POST /v2/lockers/{locker_id}/unlock
+</span></span></span></code></pre></div><h3 id="why-it-works-1">Why it works<a hidden class="anchor" aria-hidden="true" href="#why-it-works-1">#</a></h3>
+<p>It features complex state transitions including:</p>
+<ul>
+<li>Checking whether a locker is occupied</li>
+<li>Validating driver credentials</li>
+<li>Logging safety events</li>
+</ul>
+<hr>
+<h2 id="concept-c-the-subscription-billing--invoice-webhook-engine">Concept C: The Subscription Billing &amp; Invoice Webhook Engine<a hidden class="anchor" aria-hidden="true" href="#concept-c-the-subscription-billing--invoice-webhook-engine">#</a></h2>
+<h3 id="the-scenario-2">The Scenario<a hidden class="anchor" aria-hidden="true" href="#the-scenario-2">#</a></h3>
+<p>A subscription monetization API for B2B SaaS applications to programmatically calculate metered usage and dispatch payment receipts.</p>
+<h3 id="endpoint-2">Endpoint<a hidden class="anchor" aria-hidden="true" href="#endpoint-2">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">POST /v1/billing/metered-events
+</span></span></span></code></pre></div><h3 id="why-it-works-2">Why it works<a hidden class="anchor" aria-hidden="true" href="#why-it-works-2">#</a></h3>
+<p>It forces you to write clear documentation around:</p>
+<ul>
+<li>Security headers</li>
+<li>Idempotency keys</li>
+<li>Complex nested arrays</li>
+</ul>
+<hr>
+<h1 id="2-how-to-create-a-live-testable-mock-api-for-free">2. How to Create a Live, Testable Mock API (For Free)<a hidden class="anchor" aria-hidden="true" href="#2-how-to-create-a-live-testable-mock-api-for-free">#</a></h1>
+<p>To make your documentation interactive, you can route actual HTTP requests to a free cloud-hosted mock server. Recruiters will be able to use tools like:</p>
+<ul>
+<li><code>curl</code></li>
+<li>Postman</li>
+<li>Swagger</li>
+</ul>
+<p>to hit a real URL and instantly receive responses from your mock database.</p>
+<hr>
+<h2 id="method-1-beeceptor-the-absolute-fastest-route">Method 1: Beeceptor (The Absolute Fastest Route)<a hidden class="anchor" aria-hidden="true" href="#method-1-beeceptor-the-absolute-fastest-route">#</a></h2>
+<p>Beeceptor is a free web-based mock server platform requiring zero registration or local installation.</p>
+<h3 id="step-1">Step 1<a hidden class="anchor" aria-hidden="true" href="#step-1">#</a></h3>
+<p>Go to Beeceptor.</p>
+<h3 id="step-2">Step 2<a hidden class="anchor" aria-hidden="true" href="#step-2">#</a></h3>
+<p>Choose an endpoint prefix name.</p>
+<p>Example:</p>
+<pre tabindex="0"><code>sko-maritime-mock
+</code></pre><p>Your base URL becomes:</p>
+<pre tabindex="0"><code>https://sko-maritime-mock.free.beeceptor.com
+</code></pre><h3 id="step-3">Step 3<a hidden class="anchor" aria-hidden="true" href="#step-3">#</a></h3>
+<p>Click <strong>Create Endpoint</strong>.</p>
+<h3 id="step-4">Step 4<a hidden class="anchor" aria-hidden="true" href="#step-4">#</a></h3>
+<p>Define a new path rule:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Property</th>
+					<th>Value</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Method</td>
+					<td>POST</td>
+			</tr>
+			<tr>
+					<td>Path</td>
+					<td><code>/v1/vessels/SKO-OASIS-04/muster</code></td>
+			</tr>
+			<tr>
+					<td>Response Content-Type</td>
+					<td><code>application/json</code></td>
+			</tr>
+			<tr>
+					<td>Response Status</td>
+					<td><code>201 Created</code></td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="response-body">Response Body<a hidden class="anchor" aria-hidden="true" href="#response-body">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;drill_id&#34;</span>: <span style="color:#e6db74">&#34;d9b0384a-67b4-4b36-9b55-d4fc3472cbcf&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;vessel_id&#34;</span>: <span style="color:#e6db74">&#34;SKO-OASIS-04&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;status&#34;</span>: <span style="color:#e6db74">&#34;active&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;triggered_at&#34;</span>: <span style="color:#e6db74">&#34;2026-06-21T19:45:00Z&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;active_stations&#34;</span>: [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;A1&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;A2&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;B5&#34;</span>
+</span></span><span style="display:flex;"><span>  ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="step-5">Step 5<a hidden class="anchor" aria-hidden="true" href="#step-5">#</a></h3>
+<p>Click <strong>Save</strong>.</p>
+<p>You now have a live, production-grade URL that any developer in the world can make requests to.</p>
+<hr>
+<h2 id="method-2-mockoon-for-complex-local-api-engineering">Method 2: Mockoon (For Complex Local API Engineering)<a hidden class="anchor" aria-hidden="true" href="#method-2-mockoon-for-complex-local-api-engineering">#</a></h2>
+<p>If you prefer a desktop application with advanced logic (such as parsing query parameters and returning conditional responses), use Mockoon.</p>
+<h3 id="step-1-1">Step 1<a hidden class="anchor" aria-hidden="true" href="#step-1-1">#</a></h3>
+<p>Download and install <strong>Mockoon</strong>.</p>
+<h3 id="step-2-1">Step 2<a hidden class="anchor" aria-hidden="true" href="#step-2-1">#</a></h3>
+<p>Click <strong>Add Environment</strong> and set your port.</p>
+<p>Example:</p>
+<pre tabindex="0"><code>3000
+</code></pre><h3 id="step-3-1">Step 3<a hidden class="anchor" aria-hidden="true" href="#step-3-1">#</a></h3>
+<p>Add a route:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">GET /v1/fleet/:vessel_id/telemetry
+</span></span></span></code></pre></div><h3 id="step-4-1">Step 4<a hidden class="anchor" aria-hidden="true" href="#step-4-1">#</a></h3>
+<p>Define response headers:</p>
+<pre tabindex="0"><code>Content-Type: application/json
+</code></pre><h3 id="step-5-1">Step 5<a hidden class="anchor" aria-hidden="true" href="#step-5-1">#</a></h3>
+<p>Save the project.</p>
+<p>Mockoon instantly compiles this into a local server running at:</p>
+<pre tabindex="0"><code>http://localhost:3000
+</code></pre><p>You can expose it publicly using a tunneling utility like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ngrok http <span style="color:#ae81ff">3000</span>
+</span></span></code></pre></div><p>This provides a live web address that you can include in your portfolio.</p>
+<hr>
+<h1 id="3-blueprinting-your-first-custom-api-document">3. Blueprinting Your First Custom API Document<a hidden class="anchor" aria-hidden="true" href="#3-blueprinting-your-first-custom-api-document">#</a></h1>
+<p>When documenting your custom endpoint, organize the information according to standard structural principles.</p>
+<p>Use the following Markdown outline as a master template.</p>
+<hr>
+<h2 id="1-title--high-level-summary">1. Title &amp; High-Level Summary<a hidden class="anchor" aria-hidden="true" href="#1-title--high-level-summary">#</a></h2>
+<p>Briefly explain the single business objective this endpoint accomplishes.</p>
+<hr>
+<h2 id="2-http-method--uri-path-mapping">2. HTTP Method &amp; URI Path Mapping<a hidden class="anchor" aria-hidden="true" href="#2-http-method--uri-path-mapping">#</a></h2>
+<p>Show the HTTP verb and resource path clearly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-http" data-lang="http"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">POST /v1/fleet/{vessel_id}/telemetry
+</span></span></span></code></pre></div><hr>
+<h2 id="3-authentication-parameters">3. Authentication Parameters<a hidden class="anchor" aria-hidden="true" href="#3-authentication-parameters">#</a></h2>
+<p>Explain what security credentials must be supplied in the request headers.</p>
+<p>Examples:</p>
+<ul>
+<li>Bearer Token</li>
+<li>API Key</li>
+<li>Client ID</li>
+</ul>
+<hr>
+<h2 id="4-input-specifications">4. Input Specifications<a hidden class="anchor" aria-hidden="true" href="#4-input-specifications">#</a></h2>
+<h3 id="path-parameters">Path Parameters<a hidden class="anchor" aria-hidden="true" href="#path-parameters">#</a></h3>
+<p>Example:</p>
+<pre tabindex="0"><code>{vessel_id}
+</code></pre><p>Include:</p>
+<ul>
+<li>Data type</li>
+<li>Description</li>
+<li>Validation constraints</li>
+</ul>
+<h3 id="query-parameters">Query Parameters<a hidden class="anchor" aria-hidden="true" href="#query-parameters">#</a></h3>
+<p>Example:</p>
+<pre tabindex="0"><code>?include_history=true
+</code></pre><h3 id="request-body-schema">Request Body Schema<a hidden class="anchor" aria-hidden="true" href="#request-body-schema">#</a></h3>
+<p>Document every field including:</p>
+<ul>
+<li>Data type (<code>string</code>, <code>integer</code>, <code>boolean</code>, <code>array</code>, etc.)</li>
+<li>Description</li>
+<li>Whether it is required</li>
+</ul>
+<hr>
+<h2 id="5-response-payload-schema--code-samples">5. Response Payload Schema &amp; Code Samples<a hidden class="anchor" aria-hidden="true" href="#5-response-payload-schema--code-samples">#</a></h2>
+<h3 id="success-responses">Success Responses<a hidden class="anchor" aria-hidden="true" href="#success-responses">#</a></h3>
+<p>Examples:</p>
+<ul>
+<li><code>200 OK</code></li>
+<li><code>201 Created</code></li>
+</ul>
+<p>Document:</p>
+<ul>
+<li>Output schema</li>
+<li>Complete JSON response example</li>
+</ul>
+<h3 id="error-responses">Error Responses<a hidden class="anchor" aria-hidden="true" href="#error-responses">#</a></h3>
+<p>Examples:</p>
+<ul>
+<li><code>400 Bad Request</code></li>
+<li><code>401 Unauthorized</code></li>
+<li><code>404 Not Found</code></li>
+</ul>
+<p>Document what the API returns when:</p>
+<ul>
+<li>Invalid input is provided</li>
+<li>Required headers are missing</li>
+<li>Resources cannot be found</li>
+</ul>
+<hr>
+<h2 id="ℹ-portfolio-tip">ℹ️ Portfolio Tip<a hidden class="anchor" aria-hidden="true" href="#ℹ-portfolio-tip">#</a></h2>
+<p>By combining a clear Markdown description with a working Beeceptor mock URL, recruiters can:</p>
+<ol>
+<li>Copy your example terminal commands directly from your portfolio.</li>
+<li>Execute them using tools like <code>curl</code> or Postman.</li>
+<li>Receive real, live JSON payloads from your mock API.</li>
+<li>Experience your documentation exactly as a developer would.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Saurabh Kale</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,9 +1,8 @@
 ---
-title: "Resume"
+title: "Experience"
 layout: "single"
 ---
 
-# Elevator Pitch
 Senior technical writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.
 
 # About Me
@@ -13,20 +12,21 @@ Senior technical writer building documentation strategies that scale through doc
 * **Desired Title:** Senior Technical Writer, Documentation Architect, Content Strategist
 
 # Summary
-Senior Technical Writer & Documentation Architect with 6+ years of experience transforming technical complexity into intuitive, actionable user journeys. Specialized in scaling documentation for high-growth environments, bridging the gap between engineering teams and end-users. Expert in docs-as-code automation, MSTP governance, and designing “Golden Path” onboarding experiences that reduce time-to-value for developers and enterprise stakeholders.
+Senior technical writer with 7 years of experience transforming complex concepts into clear, actionable documentation. Proven expertise in managing the complete documentation lifecycle, including requirement gathering, SME collaboration, drafting, review cycles, and publication. Agile at collaborating with cross-functional teams, including Product, Engineering, and QA. Passionate about leveraging AI tools and automation to accelerate documentation workflows and enhance user experiences.
 
 # Technical Communication Work History
 
 ## Ciena
 * **Title:** Senior Technical Writer
-* **Dates of Employment:** Jul 2025 – Present
+* **Dates of Employment:** Jul 2025 – May 2026
 * **Location:** Remote (Contractual)
 
 ### Responsibilities and Accomplishments
-* **Documentation Architecture & Strategy:** Spearheaded cross-functional documentation alignment by collaborating with Product Managers, Core Developers, and QA engineers to validate technical precision.
-* **Docs-as-Code Implementation:** Executed an automated Docs-as-Code pipeline utilizing Asciidoc within VS Code to compile and publish enterprise user manuals, admin guides, and release notes in HTML and PDF formats.
-* **Lifecycle Framework:** Owned and optimized the end-to-end documentation lifecycle framework, governing content through drafting, structural SME reviews, editorial QA, and production release.
-* **Version Control Management:** Managed version control architectures using advanced GitHub branching workflows, pull request code reviews, and release tags.
+* **Documentation Templates & Standards:** Created and maintained standardized documentation templates in MS Word and GitHub repositories managed through VS Code and Markdown.
+* **Style & Formatting:** Developed document styles, formatting guidelines, and reusable layouts to ensure consistency across user guides, release notes, and technical documentation.
+* **Content Management & Collaboration:** Utilized SharePoint for internal document storage and GitHub for version control, collaborative reviews, and check-in/check-out workflows.
+* **Editorial Excellence:** Reviewed and edited technical deliverables produced by fellow writers to ensure quality, clarity, and consistency.
+* **Documentation Governance:** Collaborated with engineering teams to create, update, and enforce style guides, improving documentation consistency and reducing review cycles.
 
 ---
 
@@ -36,10 +36,10 @@ Senior Technical Writer & Documentation Architect with 6+ years of experience tr
 * **Location:** Pune, India
 
 ### Responsibilities and Accomplishments
-* **Operational Readiness:** Directed operational readiness, structural online help systems, and technical release documentation for major product software rollouts.
-* **Developer Experience (DX):** Architected and organized developer-facing assets, including SDK architectures, REST API references, and integration guides inside Confluence.
-* **Process Standardization:** Designed and standardized reusable documentation templates for complex system engineering processes and troubleshooting run sheets.
-* **Workflow Modeling:** Authored high-precision architectural topology diagrams and complex system process workflows using MS Visio.
+* **Operational Documentation:** Owned operational documentation, online help systems, and release documentation for product updates and software releases.
+* **Developer Experience (DX):** Built and structured developer-facing assets, including SDK architectures, REST API references, and integration guides within Confluence.
+* **Process Standardization:** Created reusable documentation templates for process documentation and troubleshooting guides to streamline engineering workflows.
+* **Workflow Modeling:** Produced architecture diagrams and process workflows using MS Visio to communicate complex technical concepts effectively.
 
 ---
 
@@ -49,10 +49,10 @@ Senior Technical Writer & Documentation Architect with 6+ years of experience tr
 * **Location:** Pune, India
 
 ### Responsibilities and Accomplishments
-* **Enterprise Governance:** Authored comprehensive functional, technical, and process specification documentation strictly adhering to MSTP (Microsoft Style Guide) standards.
-* **Artifact Publication:** Managed the collection and publication of high-stakes product artifacts, including Software Requirement Documents (SRD), Functional Requirement Documents (FRD), and Business Requirement Documents (BRD).
-* **Agile Integration:** Embedded actively within Agile/Scrum environments, tracking documentation sprints, epic breakdowns, and feature rollouts via Azure DevOps.
-* **Simplification Mastery:** Applied specialized structural writing principles to simplify highly technical configuration scripts and operational instruction flows for field crew members.
+* **Enterprise Documentation:** Authored functional, technical, and process documentation in accordance with Microsoft Style Guide (MSTP) standards.
+* **Requirements Documentation:** Created and maintained Software Requirement Documents (SRD), Functional Requirement Documents (FRD), and Business Requirement Documents (BRD) for software and business initiatives.
+* **Agile Integration:** Worked within Agile development environments, participating in sprint reviews, release cycles, and documentation tracking using Azure DevOps.
+* **Content Simplification:** Applied MSTP principles to standardize and simplify technical configurations, operational instructions, and maritime crew processes for improved usability.
 
 ---
 

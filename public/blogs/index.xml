@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Saurabh Kale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Technical Writer&#39;s Guide to Designing and Mocking APIs for Portfolios</title>
+      <link>http://localhost:1313/blogs/create-mock-api/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/create-mock-api/</guid>
+      <description>Learn how to design professional mock APIs, create live testable endpoints for free, and build portfolio-ready API documentation that showcases real technical writing skills.</description>
+    </item>
     <item>
       <title>The Enterprise Blueprint: Migrating Legacy Word Documentation to Docs-as-Code</title>
       <link>http://localhost:1313/blogs/doc-migration/</link>
