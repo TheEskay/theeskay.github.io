@@ -1,9 +1,7 @@
 ---
-title: "Experience"
+title: "Senior Technical Writer"
 layout: "single"
 ---
-
-## Senior Technical Writer
 
 ---
 

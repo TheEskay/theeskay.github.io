@@ -1,5 +1,5 @@
 ---
-title: "Projects & Case Studies"
-description: "A showcase of technical writing documentation architecture, style guides, and API design frameworks."
+title: "My Work Samples"
+description: "A showcase of technical writing documentations which are publicaly available."
 layout: "list"
 ---
