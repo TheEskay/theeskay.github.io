@@ -1,7 +1,7 @@
 ---
-title: "Building a GitHub Portfolio: A Step-by-Step Guide for Technical Writers"
+title: "Create an Issue - GitHub REST API Documentation"
 date: 2026-05-22
-summary: "Why traditional PDFs don't cut it anymore, and how to engineer a high-performance portfolio using Hugo, PaperMod, and Markdown."
+summary: "Learn how to create GitHub issues programmatically using the GitHub REST API, including authentication requirements, request parameters, example responses, and common error handling scenarios."
 showToc: true
 TocOpen: false
 ---

@@ -3,107 +3,163 @@ title: "Experience"
 layout: "single"
 ---
 
-Senior technical writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.
-
-# About Me
-* **Location:** Pune, Maharashtra, India (or Remote)
-* **Class of Work:** Full-time, Freelance, Contract
-* **Type of Work:** Developer Experience (DX) Documentation, API/SDK Reference Design, Information Architecture, Content Strategy
-* **Desired Title:** Senior Technical Writer, Documentation Architect, Content Strategist
-
-# Summary
-Senior technical writer with 7 years of experience transforming complex concepts into clear, actionable documentation. Proven expertise in managing the complete documentation lifecycle, including requirement gathering, SME collaboration, drafting, review cycles, and publication. Agile at collaborating with cross-functional teams, including Product, Engineering, and QA. Passionate about leveraging AI tools and automation to accelerate documentation workflows and enhance user experiences.
-
-# Technical Communication Work History
-
-## Ciena
-* **Title:** Senior Technical Writer
-* **Dates of Employment:** Jul 2025 – May 2026
-* **Location:** Remote (Contractual)
-
-### Responsibilities and Accomplishments
-* **Documentation Templates & Standards:** Created and maintained standardized documentation templates in MS Word and GitHub repositories managed through VS Code and Markdown.
-* **Style & Formatting:** Developed document styles, formatting guidelines, and reusable layouts to ensure consistency across user guides, release notes, and technical documentation.
-* **Content Management & Collaboration:** Utilized SharePoint for internal document storage and GitHub for version control, collaborative reviews, and check-in/check-out workflows.
-* **Editorial Excellence:** Reviewed and edited technical deliverables produced by fellow writers to ensure quality, clarity, and consistency.
-* **Documentation Governance:** Collaborated with engineering teams to create, update, and enforce style guides, improving documentation consistency and reducing review cycles.
+## Senior Technical Writer & Documentation Specialist
 
 ---
 
-## UNIKEN
-* **Title:** Technical Writer
-* **Dates of Employment:** Aug 2024 – Apr 2025
-* **Location:** Pune, India
+## Professional Summary
 
-### Responsibilities and Accomplishments
-* **Operational Documentation:** Owned operational documentation, online help systems, and release documentation for product updates and software releases.
-* **Developer Experience (DX):** Built and structured developer-facing assets, including SDK architectures, REST API references, and integration guides within Confluence.
-* **Process Standardization:** Created reusable documentation templates for process documentation and troubleshooting guides to streamline engineering workflows.
-* **Workflow Modeling:** Produced architecture diagrams and process workflows using MS Visio to communicate complex technical concepts effectively.
+Senior Technical Writer with 7+ years of experience developing high-quality user-facing technical documentation for SaaS enterprise, cloud, hardware, and network infrastructure products. Skilled at leveraging AI automation tools to accelerate documentation development life cycles (DDLC) from design to execution and post-release maintenance. Experienced in collaborating with engineers, product managers, and QA teams to gather requirements, validate technical accuracy, and translate complex technical concepts into clear and structured documentation for both internal and external audiences.
 
 ---
 
-## SKO Systems
-* **Title:** Sr. Technical Writer
-* **Dates of Employment:** Nov 2023 – Aug 2024
-* **Location:** Pune, India
+## Documentation Expertise
 
-### Responsibilities and Accomplishments
-* **Enterprise Documentation:** Authored functional, technical, and process documentation in accordance with Microsoft Style Guide (MSTP) standards.
-* **Requirements Documentation:** Created and maintained Software Requirement Documents (SRD), Functional Requirement Documents (FRD), and Business Requirement Documents (BRD) for software and business initiatives.
-* **Agile Integration:** Worked within Agile development environments, participating in sprint reviews, release cycles, and documentation tracking using Azure DevOps.
-* **Content Simplification:** Applied MSTP principles to standardize and simplify technical configurations, operational instructions, and maritime crew processes for improved usability.
-
----
-
-## Older Experience Roles
-* **Sr. Technical Copywriter** | Happening Design Studio *(Feb 2023 – Nov 2023)*
-  * Authored over 50+ user manuals, FAQs, SOPs, and whitepapers using strict discovery pipelines.
-* **Content Strategist** | Rest The Case *(Feb 2022 – Feb 2023)*
-  * Orchestrated technical content audits and managed distributed writing teams.
-* **Technical Writer** | Barrier Break *(Feb 2021 – Jan 2022)*
-  * Engineered a 68-page corporate Style Guide for VPAT auditing and WCAG 2.0 / Section 508 compliance rules.
-* **Content Writer** | Mentebit Software *(Jun 2019 – Feb 2021)*
-  * Implemented semantic search-engine optimization layouts, boosting traffic metrics by 30%.
-
----
-
-# Core Competencies
-* **Documentation Architecture:** Information Architecture, Content Modeling, Component Reusability.
-* **Developer Experience (DX):** "Golden Path" Onboarding, Time-to-Hello-World Optimization, API Reference Design.
-* **Docs-as-Code Mastery:** Git/GitHub Workflows, Static Site Generators, Markdown/AsciiDoc.
-* **Governance & Standards:** MSTP Manual Compliance, VPAT/WCAG 2.0 Accessibility Auditing, Requirements Logging (FRD/SRD).
+* API Documentation
+* User Manuals
+* Installation Guides
+* Troubleshooting Guides
+* Release Notes
+* FAQs
+* Standard Operating Procedures (SOPs)
+* Whitepapers
+* Information Architecture
+* Knowledge Base Articles
+* Style Guide Development (MSTP)
+* UX Writing
+* Topic-Based Authoring
+* Docs-as-Code
+* Agile & Scrum Methodologies
+* CI/CD Documentation Workflows
+* Documentation Development Life Cycle (DDLC)
+* Software Development Life Cycle (SDLC)
+* Virtual Collaboration
+* Documentation Platform Migration
 
 ---
 
-# Technical Communication Skills and Software
+## Technical Skills
 
-### Documentation Platforms & Tools
-| Software / Framework | Proficiency Level |
-| :--- | :--- |
-| Confluence / JIRA | Expert (5/5) |
-| MadCap Flare | Advanced (4/5) |
-| Sphinx & reStructuredText | Advanced (4/5) |
-| Swagger / Postman | Advanced (4/5) |
+### Tools & Platforms
 
-### Development & Collaboration Tools
-| Software / Language | Proficiency Level |
-| :--- | :--- |
-| Markdown / AsciiDoc | Expert (5/5) |
-| GitHub / Git | Advanced (4/5) |
-| VS Code / MS Visio | Advanced (4/5) |
-| Azure DevOps | Intermediate (3/5) |
+* MadCap Flare
+* Confluence
+* JIRA
+* Microsoft Word
+* Microsoft Excel
+* Adobe Acrobat
+* SharePoint
+* Adobe FrameMaker
+* Adobe RoboHelp
+* Sphinx
+* Git & GitHub
+* GitBook
+* Visual Studio Code
+* Notion
+* Camtasia
+* Draw.io
+* Lucidchart
+* SnagIt
+* Loom
+* Cloudflare Pages
+
+### Technologies
+
+* XML / DITA
+* REST APIs
+* OpenAPI / Swagger
+* Postman
+* HTML
+* CSS
+* SQL Server
+* Markdown
+* AsciiDoc
+* Docs-as-Code
+* Git-based Workflows
+* CI/CD Fundamentals
 
 ---
 
-# Education
+## Professional Experience
 
-### PGDM: Technical Writing in Business Management
-* **School:** Symbiosis Centre for Distance Learning
+### Technical Writer | Ciena (Remote)
+
+**July 2025 – May 2026**
+
+* Authored and maintained technical documentation across eight Git repositories, ensuring consistency and alignment with MSTP standards.
+* Collaborated with developers and QA engineers during Scrum ceremonies for requirement gathering and feature demonstrations.
+* Edited and refined both AI-generated and manually authored documentation before publication.
+* Developed AI-powered automation scripts in Visual Studio Code that reduced review cycles by 40% and saved approximately 10 hours per week.
+* Led the migration of an 1,800-page documentation set comprising 350 files from MadCap Flare to AsciiDoc.
+* Authored user guides using DITA XML principles and topic-based authoring practices.
+* Mentored newly onboarded technical writers and introduced AI-driven automation techniques to streamline documentation workflows.
+
+### Technical Writer | UNIKEN (Remote)
+
+**July 2024 – April 2025**
+
+* Maintained twelve technical documents per month for cybersecurity products.
+* Designed and structured SDK, API, and developer documentation to improve content discoverability and developer onboarding.
+* Built a web-based release notes portal from scratch.
+* Established documentation templates and content governance practices.
+* Created architecture diagrams and process workflows using Lucidchart.
+* Partnered with cross-functional teams including product managers, developers, UI designers, and QA engineers.
+
+### Technical Writer | SKO Systems (Remote)
+
+**November 2023 – June 2024**
+
+* Authored functional, technical, and process documentation for maritime software systems.
+* Led requirements discussions with business analysts and sales leadership.
+* Created architecture diagrams and screen-recorded walkthroughs using Draw.io.
+* Implemented content quality controls that reduced review cycles by 30%.
+
+### Technical Copywriter | Happening Design Studio (Remote)
+
+**February 2023 – November 2023**
+
+* Authored SEO-optimized whitepapers generating up to 5,000 monthly organic visitors.
+* Produced documentation for Agentic AI and LLM-based functionality.
+* Presented quarterly documentation performance metrics using Google Analytics and LinkedIn Analytics.
+
+### Content Strategist / Technical Writer | Rest The Case (Pune, Maharashtra)
+
+**February 2022 – February 2023**
+
+* Conducted content audits and competitor analyses.
+* Developed technical SEO strategies that improved search visibility.
+* Produced advertising scripts and campaigns generating more than 10,000 leads across India.
+
+### Associate Technical Writer | Barrier Break (Remote)
+
+**September 2021 – February 2022**
+
+* Authored a 68-page style guide standardizing VPAT documents and WCAG 2.1 compliance practices.
+* Managed accessibility documentation and knowledge resources using SharePoint.
+* Drafted accessibility statements and video captions ensuring legal compliance.
+
+### Content Writer | Infusyx (Pune, Maharashtra)
+
+**June 2019 – August 2021**
+
+* Produced SEO-optimized content for international medical education programs.
+* Created YouTube scripts and social media content supporting brand awareness initiatives.
+* Contributed to marketing campaigns resulting in over 500 student registrations.
+
+---
+
+## Education
+
+### Postgraduate Diploma in Management (PGDM)
+
+* **Specialization:** Technical Communication & Writing in Business Management
+* **Institution:** Symbiosis Centre for Distance Learning (SCDL)
 * **Duration:** 2021 – 2025
-* Developed a solid methodology for translating corporate objectives into clear, scalable training assets.
 
 ### Bachelor of Business Administration (BBA)
-* **School:** Pune University
+
+* **Specialization:** Sales & Marketing
+* **Institution:** Savitribai Phule Pune University
 * **Duration:** 2016 – 2019
-* Major in Marketing with an academic focus on audience mapping and communication patterns.
+
+---

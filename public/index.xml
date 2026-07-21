@@ -16,6 +16,13 @@
       <description>A practical guide to the modern technical writer&amp;rsquo;s workflow, tools, document types, and responsibilities in today&amp;rsquo;s software industry.</description>
     </item>
     <item>
+      <title>Create an Issue - GitHub REST API Documentation</title>
+      <link>http://localhost:1313/api-docs/api-doc-sample1/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/api-docs/api-doc-sample1/</guid>
+      <description>Learn how to create GitHub issues programmatically using the GitHub REST API, including authentication requirements, request parameters, example responses, and common error handling scenarios.</description>
+    </item>
+    <item>
       <title>The Technical Writer&#39;s Guide to Designing and Mocking APIs for Portfolios</title>
       <link>http://localhost:1313/blogs/create-mock-api/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
@@ -58,13 +65,6 @@
       <description>Architecting authoritative technical whitepapers on DevOps strategy, AI automation, Shift-Left security, and ETL testing pipelines to drive industry thought leadership.</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/api-docs/api-doc-sample1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/api-docs/api-doc-sample1/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -93,16 +93,10 @@
       <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resume/</guid>
-      <description>&lt;p&gt;Senior technical writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.&lt;/p&gt;
-&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Pune, Maharashtra, India (or Remote)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Class of Work:&lt;/strong&gt; Full-time, Freelance, Contract&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Type of Work:&lt;/strong&gt; Developer Experience (DX) Documentation, API/SDK Reference Design, Information Architecture, Content Strategy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Desired Title:&lt;/strong&gt; Senior Technical Writer, Documentation Architect, Content Strategist&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
-&lt;p&gt;Senior technical writer with 7 years of experience transforming complex concepts into clear, actionable documentation. Proven expertise in managing the complete documentation lifecycle, including requirement gathering, SME collaboration, drafting, review cycles, and publication. Agile at collaborating with cross-functional teams, including Product, Engineering, and QA. Passionate about leveraging AI tools and automation to accelerate documentation workflows and enhance user experiences.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;senior-technical-writer--documentation-specialist&#34;&gt;Senior Technical Writer &amp;amp; Documentation Specialist&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;professional-summary&#34;&gt;Professional Summary&lt;/h2&gt;
+&lt;p&gt;Senior Technical Writer with 7+ years of experience developing high-quality user-facing technical documentation for SaaS enterprise, cloud, hardware, and network infrastructure products. Skilled at leveraging AI automation tools to accelerate documentation development life cycles (DDLC) from design to execution and post-release maintenance. Experienced in collaborating with engineers, product managers, and QA teams to gather requirements, validate technical accuracy, and translate complex technical concepts into clear and structured documentation for both internal and external audiences.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

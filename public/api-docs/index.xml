@@ -6,13 +6,14 @@
     <description>Recent content in Api-Docs on Saurabh Kale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/api-docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Create an Issue - GitHub REST API Documentation</title>
       <link>http://localhost:1313/api-docs/api-doc-sample1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/api-docs/api-doc-sample1/</guid>
-      <description></description>
+      <description>Learn how to create GitHub issues programmatically using the GitHub REST API, including authentication requirements, request parameters, example responses, and common error handling scenarios.</description>
     </item>
   </channel>
 </rss>
