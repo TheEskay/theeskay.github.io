@@ -3,7 +3,7 @@ title: "Experience"
 layout: "single"
 ---
 
-## Senior Technical Writer & Documentation Specialist
+## Senior Technical Writer
 
 ---
 

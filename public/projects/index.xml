@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Projects &amp; Case Studies on Saurabh Kale</title>
+    <title>Projects on Saurabh Kale</title>
     <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects &amp; Case Studies on Saurabh Kale</description>
+    <description>Recent content in Projects on Saurabh Kale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Product Release Notes &amp; Version History Engineering</title>
-      <link>http://localhost:1313/projects/a11yinspect-release-notes/</link>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/a11yinspect-release-notes/</guid>
-      <description>Designing user-centric release notes, changelogs, and version history frameworks for A11yInspect—BarrierBreak&amp;rsquo;s enterprise digital accessibility testing platform.</description>
-    </item>
-    <item>
-      <title>Maritime Enterprise Product Documentation Suite</title>
-      <link>http://localhost:1313/projects/sko-maritime-suite/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/sko-maritime-suite/</guid>
-      <description>Architecting end-to-end technical documentation, functional requirement specs, and user journeys for SKO Systems&amp;rsquo; flagship maritime and cruise operations platform.</description>
-    </item>
-    <item>
-      <title>Enterprise Technical Content Strategy &amp; Whitepapers</title>
-      <link>http://localhost:1313/projects/qualizeal-whitepapers/</link>
-      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/qualizeal-whitepapers/</guid>
-      <description>Architecting authoritative technical whitepapers on DevOps strategy, AI automation, Shift-Left security, and ETL testing pipelines to drive industry thought leadership.</description>
+      <title></title>
+      <link>http://localhost:1313/projects/user_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/user_guide/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

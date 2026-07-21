@@ -26,23 +26,27 @@
     <loc>http://localhost:1313/blogs/building-docs-as-code-portfolio/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/a11yinspect-release-notes/</loc>
+    <loc>http://localhost:1313/samples/a11yinspect-release-notes/</loc>
     <lastmod>2025-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/samples/</loc>
     <lastmod>2025-11-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/sko-maritime-suite/</loc>
+    <loc>http://localhost:1313/samples/sko-maritime-suite/</loc>
     <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/qualizeal-whitepapers/</loc>
+    <loc>http://localhost:1313/samples/qualizeal-whitepapers/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/user_guide/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/resume/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
