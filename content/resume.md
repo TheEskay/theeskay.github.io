@@ -15,26 +15,26 @@ Senior Technical Writer with 7+ years of experience developing high-quality user
 
 ## Documentation Expertise
 
-* API Documentation
-* User Manuals
-* Installation Guides
-* Troubleshooting Guides
-* Release Notes
-* FAQs
-* Standard Operating Procedures (SOPs)
-* Whitepapers
-* Information Architecture
-* Knowledge Base Articles
-* Style Guide Development (MSTP)
-* UX Writing
-* Topic-Based Authoring
-* Docs-as-Code
-* Agile & Scrum Methodologies
-* CI/CD Documentation Workflows
-* Documentation Development Life Cycle (DDLC)
-* Software Development Life Cycle (SDLC)
-* Virtual Collaboration
-* Documentation Platform Migration
+`User Manuals`
+`Installation Manuals`
+`Troubleshooting Guides`
+`API Documentation`
+`Release Notes`
+`FAQs`
+`SOPs`
+`Whitepapers`
+`Information Architecture`
+`Knowledge Base Articles`
+`Style Guide (MSTP)`
+`UX Writing`
+`Topic-based Authoring`
+`Docs-as-Code`
+`Agile/Scrum`
+`CI/CD`
+`DDLC & SDLC`
+`Virtual Collaboration`
+`Content Audit`
+`Version Control`
 
 ---
 
@@ -42,41 +42,41 @@ Senior Technical Writer with 7+ years of experience developing high-quality user
 
 ### Tools & Platforms
 
-* MadCap Flare
-* Confluence
-* JIRA
-* Microsoft Word
-* Microsoft Excel
-* Adobe Acrobat
-* SharePoint
-* Adobe FrameMaker
-* Adobe RoboHelp
-* Sphinx
-* Git & GitHub
-* GitBook
-* Visual Studio Code
-* Notion
-* Camtasia
-* Draw.io
-* Lucidchart
-* SnagIt
-* Loom
-* Cloudflare Pages
+`MadCap Flare`
+`Confluence`
+`JIRA`
+`Microsoft Word`
+`Microsoft Excel`
+`Adobe Acrobat`
+`SharePoint`
+`Adobe FrameMaker`
+`Adobe RoboHelp`
+`Sphinx`
+`Git & GitHub`
+`GitBook`
+`Visual Studio Code`
+`Notion`
+`Camtasia`
+`Draw.io`
+`Lucidchart`
+`SnagIt`
+`Loom`
+`Cloudflare Pages`
 
 ### Technologies
 
-* XML / DITA
-* REST APIs
-* OpenAPI / Swagger
-* Postman
-* HTML
-* CSS
-* SQL Server
-* Markdown
-* AsciiDoc
-* Docs-as-Code
-* Git-based Workflows
-* CI/CD Fundamentals
+`XML / DITA`
+`REST APIs`
+`OpenAPI / Swagger`
+`Postman`
+`HTML`
+`CSS`
+`SQL Server`
+`Markdown`
+`AsciiDoc`
+`Docs-as-Code`
+`Git-based Workflows`
+`CI/CD Fundamentals`
 
 ---
 
