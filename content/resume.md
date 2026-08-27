@@ -69,7 +69,6 @@ Senior Technical Writer with 7+ years of experience developing high-quality user
 `Postman`
 `HTML`
 `CSS`
-`SQL Server`
 `Markdown`
 `AsciiDoc`
 `Docs-as-Code`
@@ -84,65 +83,78 @@ Senior Technical Writer with 7+ years of experience developing high-quality user
 
 **July 2025 – May 2026**
 
-* Authored and maintained technical documentation across eight Git repositories, ensuring consistency and alignment with MSTP standards.
-* Collaborated with developers and QA engineers during Scrum ceremonies for requirement gathering and feature demonstrations.
-* Edited and refined both AI-generated and manually authored documentation before publication.
-* Developed AI-powered automation scripts in Visual Studio Code that reduced review cycles by 40% and saved approximately 10 hours per week.
-* Led the migration of an 1,800-page documentation set comprising 350 files from MadCap Flare to AsciiDoc.
-* Authored user guides using DITA XML principles and topic-based authoring practices.
-* Mentored newly onboarded technical writers and introduced AI-driven automation techniques to streamline documentation workflows.
+* Authored and maintained technical documentation across 8 Git repositories, ensuring accuracy, consistency, and alignment 
+with the MSTP style guide for 3 product releases per month. 
+* Edited, proofread, and refined AI-generated content and manually authored product docs and release notes to verify 
+technical accuracy and readability before publication. 
+* Developed AI-powered automation scripts in Visual Studio to generate navigation and index files, reducing review cycles by 
+40%, which saved 10 hours per week. 
+* Led the migration of an 1,800-page documentation set (350 files) from MadCap Flare to AsciiDoc, completing the initiative 
+in 45 days, ahead of the 2-month deadline. 
+* Authored and structured user guides using DITA XML principles, applying topic-based authoring/single sourcing to tag and 
+organize content for modular reuse and consistent structure. 
+* Mentored 2 newly onboarded technical writers and was recognized for introducing AI-driven automation techniques that 
+streamlined repetitive documentation tasks
 
-### Technical Writer | UNIKEN (Remote)
+### Technical Writer | UNIKEN (Pune - Hybrid)
 
 **July 2024 – April 2025**
 
-* Maintained twelve technical documents per month for cybersecurity products.
-* Designed and structured SDK, API, and developer documentation to improve content discoverability and developer onboarding.
-* Built a web-based release notes portal from scratch.
-* Established documentation templates and content governance practices.
-* Created architecture diagrams and process workflows using Lucidchart.
-* Partnered with cross-functional teams including product managers, developers, UI designers, and QA engineers.
+* Owned and maintained 12 technical documents per month, including operational guides, release notes, installation guides, 
+and troubleshooting documentation for cybersecurity products. 
+* Designed and structured SDK, API, and developer documentation improving content discoverability and reducing support 
+ticket rates by 16%. 
+* Established documentation templates and content governance practices for release notes and installation guides, 
+supporting publication readiness across cybersecurity documentation. 
+* Produced architecture diagrams and process workflows using Lucidchart to simplify complex technical concepts for 
+developers, support teams, and Subject Matter Experts (SMEs). 
+* Partnered with product managers, developers, UI designers, and QA Engineers to align documentation processes, B2B 
+onboarding activities, and release deliverables.
 
-### Technical Writer | SKO Systems (Remote)
+### Technical Writer | SKO Systems (Pune - Hybrid)
 
-**November 2023 – June 2024**
+**February 2023 – June 2024**
 
-* Authored functional, technical, and process documentation for maritime software systems.
-* Led requirements discussions with business analysts and sales leadership.
-* Created architecture diagrams and screen-recorded walkthroughs using Draw.io.
-* Implemented content quality controls that reduced review cycles by 30%.
+* Authored functional, technical, and process documentation for maritime hardware systems and device applications, 
+enabling crew to perform complex operations more effectively and reducing dependency on engineering support by 65%. 
+* Led requirements discussions with business analysts and sales leadership, translating business needs into SRD, FRD, and 
+BRD documentation for software and KIOSK hardware initiatives. 
+* Created screen-recorded SOP for product walkthroughs using Camtasia and architecture diagrams using Draw.io, 
+simplifying complex application workflows and reducing user onboarding/training time by 12 Hrs. 
+* Promoted sMuster and Gangway products at an international maritime trade event through targeted LinkedIn campaigns, 
+dedicated landing pages, and SEO-optimized content, generating 3 qualified leads and increasing product visibility. 
+* Implemented content quality controls and structured review workflows for cruise-based KIOSK hardware documentation 
+complying with international maritime standards, reducing documentation review cycles by 30%
 
-### Technical Copywriter | Happening Design Studio (Remote)
+### Associate Technical Writer | (Mumbai - Onsite)
 
-**February 2023 – November 2023**
+**September 2021 – February 2023**
 
-* Authored SEO-optimized whitepapers generating up to 5,000 monthly organic visitors.
-* Produced documentation for Agentic AI and LLM-based functionality.
-* Presented quarterly documentation performance metrics using Google Analytics and LinkedIn Analytics.
+* Developed a standardized style guide for VPAT documentation, incorporating WCAG 2.1 accessibility guidelines to establish 
+consistent documentation practices and support international accessibility compliance. 
+* Implemented accessibility standards across documentation and knowledge resources, including alt text and screen-reader
+friendly content, improving accessibility for users with visual impairments. 
+* Translated QA-reported issues from informal, engineer-specific terminology into clear, standardized technical 
+documentation, improving communication and information flow across cross-functional teams. 
+* Researched and authored accessibility statements aligned with WCAG requirements, strengthening the organization’s 
+documentation around product accessibility and inclusive user experiences. 
+* Authored alternative text for diagrams, mathematical formulas, and video content across complex academic and 
+operational manuals, ensuring published documentation met accessibility and compliance requirements.
 
-### Content Strategist / Technical Writer | Rest The Case (Pune, Maharashtra)
+### Content Writer | Infusyx (Pune - Onsite)
 
-**February 2022 – February 2023**
+**June 2019 – September 2021**
 
-* Conducted content audits and competitor analyses.
-* Developed technical SEO strategies that improved search visibility.
-* Produced advertising scripts and campaigns generating more than 10,000 leads across India.
-
-### Associate Technical Writer | Barrier Break (Remote)
-
-**September 2021 – February 2022**
-
-* Authored a 68-page style guide standardizing VPAT documents and WCAG 2.1 compliance practices.
-* Managed accessibility documentation and knowledge resources using SharePoint.
-* Drafted accessibility statements and video captions ensuring legal compliance.
-
-### Content Writer | Infusyx (Pune, Maharashtra)
-
-**June 2019 – August 2021**
-
-* Produced SEO-optimized content for international medical education programs.
-* Created YouTube scripts and social media content supporting brand awareness initiatives.
-* Contributed to marketing campaigns resulting in over 500 student registrations.
+* Created SEO-optimized university guides targeting competitive keywords, helping 15 web pages outrank competing 
+education consultants in Google search results. 
+* Developed promotional video scripts and social media content across multiple channels, growing the audience from zero to 
+1,500 Instagram followers and 11,000 YouTube subscribers. 
+* Built and managed lead-generation funnels for student acquisition, supporting 8 webinars with a ₹5,000 advertising budget 
+and generating 800+ student registrations. 
+* Developed conversion-focused landing pages for the BizzCall CRM product, achieving approximately 60% visitor-to
+conversion rates through persuasive content and retargeting campaigns. 
+* Authored an in-app user manual for BizzCall, integrating product documentation directly into the CRM interface and helping 
+reduce customer support complaints.
 
 ---
 
