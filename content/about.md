@@ -3,13 +3,11 @@ title: "About"
 layout: "single"
 ---
 
-## Welcome!
-
 ### Technical writing is more than writing.
 
 AI can generate a paragraph, summarise a technical concept, and even produce a first draft of a document. I use AI tools in my own workflow, and I see them as an opportunity to work faster and more thoughtfully.
 
-But good documentation starts long before the writing.
+But good documentation starts long before the writings.
 
 It starts with **finding the right information, asking the right questions, understanding the product, working with subject-matter experts, identifying gaps, and figuring out what the user actually needs.**
 
