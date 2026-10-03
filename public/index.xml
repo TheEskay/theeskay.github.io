@@ -77,23 +77,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome!&lt;/h2&gt;
-&lt;p&gt;My name is Saurabh Kale, a Senior Technical Writer building documentation strategies that scale through docs-as-code architecture, team leadership, and emerging technologies.&lt;/p&gt;
-&lt;h2 id=&#34;my-toolkit&#34;&gt;My Toolkit&lt;/h2&gt;
-&lt;p&gt;My current professional toolkit includes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Docs-as-Code:&lt;/strong&gt; Hugo, Markdown, Asciidoc, Sphinx, reStructured Text&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Development:&lt;/strong&gt; Git, GitHub, VS Code&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;AI &amp;amp; Automation:&lt;/strong&gt; Claude Code, LLM-Assisted Content Strategy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Design &amp;amp; Collaboration:&lt;/strong&gt; MS Visio, Camtasia, Snagit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;other-tools-ive-used&#34;&gt;Other Tools I’ve Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Documentation Platforms:&lt;/strong&gt; MadCap Flare, Confluence, Swagger, Postman&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Project Management:&lt;/strong&gt; Jira, Azure DevOps, SharePoint&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Communication:&lt;/strong&gt; Slack, WebEx, Zoom&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;this-site-uses&#34;&gt;This site uses:&lt;/h2&gt;
-&lt;p&gt;Git, GitHub, Markdown, Hugo, and the PaperMod theme.&lt;/p&gt;</description>
+&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;h3 id=&#34;technical-writing-is-more-than-writing&#34;&gt;Technical writing is more than writing.&lt;/h3&gt;
+&lt;p&gt;AI can generate a paragraph, summarise a technical concept, and even produce a first draft of a document. I use AI tools in my own workflow, and I see them as an opportunity to work faster and more thoughtfully.&lt;/p&gt;
+&lt;p&gt;But good documentation starts long before the writing.&lt;/p&gt;
+&lt;p&gt;It starts with &lt;strong&gt;finding the right information, asking the right questions, understanding the product, working with subject-matter experts, identifying gaps, and figuring out what the user actually needs.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Senior Technical Writer</title>
