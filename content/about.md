@@ -4,7 +4,6 @@ layout: "single"
 ---
 
 ## Welcome!
-## About Me
 
 ### Technical writing is more than writing.
 
